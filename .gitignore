@@ -1,0 +1,55 @@
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+config/*.sample
+config/initializers/quite_assets.rb
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+
+/log/*.log
+
+public/assets/
+public/system/
+public/uploads
+
+
+.sass-cache
+
+.~
+.rvmrc
+
+# RubyMine artifacts
+.idea
+.idea/*
+/.idea/workspace.xml
+/.idea/tasks.xml
+.DS_Store
+.iml
+
+# Ignore application configuration
+/config/application.yml
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore Byebug command history file.
+.byebug_history
